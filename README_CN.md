@@ -45,7 +45,6 @@
 > 4.  备用方案：如果步骤 [**3**] 后仍不可用，或者遇到注册账号失败、无法删除账号等问题，这通常意味着您的浏览器被目标网站识别或限制（风控）。此时，请尝试更换浏览器，例如：Edge、Google Chrome、Firefox。（或者，可以尝试使用能够修改或随机化浏览器指纹信息的浏览器）。
 
 
-关注大佬公众号：煎饼果子卷AI
 
 
 ---
@@ -186,13 +185,13 @@ We're experiencing high demand for Claude 3.7 Sonnet right now. Please upgrade t
 **macOS**
 
 ```bash
-curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
+curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
 **Linux**
 
 ```bash
-curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash
+curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash
 ```
 
 > **Linux 用户请注意：** 该脚本通过检查常用路径（`/usr/bin`, `/usr/local/bin`, `$HOME/.local/bin`, `/opt/cursor`, `/snap/bin`）、使用 `which cursor` 命令以及在 `/usr`、`/opt` 和 `$HOME/.local` 目录内搜索，来尝试定位您的 Cursor 安装。如果 Cursor 安装在其他位置或通过这些方法无法找到，脚本可能会失败。请确保可以通过这些标准位置或方法之一访问到 Cursor。
@@ -200,7 +199,7 @@ curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com
 **Windows**
 
 ```powershell
-irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 <div align="center">
 <img src="img/run_success.png" alt="运行成功" width="600"/>
@@ -230,7 +229,7 @@ irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaoti
    或在打开的窗口中输入: Start-Process pwsh -Verb RunAs
 4. 在管理员终端中输入以下重置脚本:
 
-irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 ##### 方法三：通过搜索启动
@@ -241,7 +240,7 @@ irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaoti
 
 在管理员终端中输入重置脚本:
 ```powershell
-irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
+irm https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_win_id_modifier.ps1 | iex
 ```
 
 ### 🔧 PowerShell 安装指南
@@ -413,19 +412,19 @@ touch ~/Library/Application\ Support/Caches/cursor-updater
 #### macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh -o ./cursor_free_trial_reset.sh && sudo bash ./cursor_free_trial_reset.sh && rm ./cursor_free_trial_reset.sh
+curl -fsSL https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh -o ./cursor_free_trial_reset.sh && sudo bash ./cursor_free_trial_reset.sh && rm ./cursor_free_trial_reset.sh
 ```
 
 #### Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh | sudo bash
 ```
 
 #### Windows
 
 ```powershell
-irm https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh | iex
+irm https://raw.githubusercontent.com/wo601495635/go-cursor-help/refs/heads/master/scripts/run/cursor_free_trial_reset.sh | iex
 ```
 
 </details>
